@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Begrepp</title>
+  </head>
+  <body>
+    <div class="banner">
+      <h1>Begrepp och Github</h1>
+    </div>
+    <div class="container">
+      <h2>Flexbox</h2>
+      <p>
+        Det är ett sätt att skapa en layout / dela upp innehållet på en websida, som kan anpassas
+        lättare när man inte helt är säker på storlek och/eller vill anpassa dynamiskt, därav flex.
+        Flexbox ger möjligheten att ändra föremåls bredd, höjd och ordning för att på bästa sätt
+        fylla tillgängligt utrymme, för att passa alla skärmstorlekar. En flexbox expanderar föremål
+        för att fylla ledigt utrymme eller krymper dem för att förhindra att de hamnar utanför
+        området. Denna sida är skriven med hjälp av flexboxar, huvudinnehållet är i form av kolumner
+        som sedan är indelat i rader. För vidare förklaring se bild nedan:
+      </p>
+      <img src="./img/Flextermer.png" />
+    </div>
+    <div class="row-container">
+      <div class="content-row-1">
+        <h2>Fin kod</h2>
+        <p>
+          Fin kod alt. Clean code är ett begrepp som används för att beskriva hur man skriver kod.
+          En definition av clean code är: “Clean code is code that is easy to understand and easy to
+          change”. Vilket menar att kod ska vara lätt att förstå/läsa och att ändra. Detta är mycket
+          viktigt för att ett projekt ska flyta på med så få problem som möjligt, det blir väldigt
+          svårt att samarbeta när man inte kan först varandras arbete och hur man ska koppla dem
+          till varandra. Skriver man istället kod som är lätt att följa och att ändra på så kan man
+          enkelt se vad den gör och kan då anpassa snabbare samt att felsökning blir mycket enklare,
+          när man lätt kan se vad som sker.
+        </p>
+        <h2>DOM</h2>
+        <p>
+          “När man laddar en webbplats så skapar webbläsaren en så kallad Document Object Model” med
+          information om objekten och elementen sidan innehåller, vilket kan se ut på följande sätt:
+        </p>
+        <img src="./img/pic_htmltree.gif" />
+        <p>
+          Vilket gör det möjligt för JavaScript att komman åt alla element på websidan genom DOM
+          trädet (se ovan), man kan ändra både CSS och html delen. Man kan i stort sett ändra vad
+          som helst, ta bort och lägga till element styla om CSS delen och hämta input från element
+          som användaren interagera med.
+        </p>
+      </div>
+      <div class="content-row-2">
+        <h2>Ramverk</h2>
+        <p>
+          Ett ramverk är ett verktyg som kan innehålla kodbibliotek, program eller färdiga lösningar
+          som används för att påskynda/underlätta utvecklingen. I vissa fall kan se det som en
+          förbyggd struktur som hanterar de mer repetitiva delar i utvecklingen. Nedan kommer 2
+          exempel på ramverk
+        </p>
+        <p>
+          <b>Bootstrap:</b> är ett front-end ramverk som innehåller CSS, HTML och JavaScript där
+          grunder för responsiv och mobilvänlig webbutveckling är lagd. Bootstrap är ett av de mest
+          populära HTML-, CSS- och JavaScrip ramverken (möjligt det mest populära).
+        </p>
+        <p>
+          <b>Angular:</b> är ett ramverk för att skapa Single Page Applications, skrivet i
+          TypeScript och utvecklat av Google. Angular gör det möjligt för användare att skapa stora
+          applikationer på ett hållbart sätt.
+        </p>
+        <h2>Github flow</h2>
+        <p>
+          Det är ett arbetssätt som kan användas när man jobbar med GitHub. Enklast att förklara
+          github flow är nog med följande bild:
+        </p>
+        <img src="./img/githubFlow.png" />
+        <p>
+          Man börjar med att skapa en “branch” eller gren av projektet som man gör sina
+          ändringar/tillägg i. När man känner att man är redo så öppnar man en Pull Request” där man
+          kan be alla som har tillgång att se över det arbete man gjort, där de lämnar feedback och
+          kontrollerar så allt stämmer och inte kommer skapa problem senare. När det är gjort och
+          allt ser ok ut så kan man testa att koden fungerar i den miljö den tänkt användas, detta
+          blir som ett slut test där man ser att allt verkligen fungerar. När allt det är gjort och
+          inga fel finns så är det dags att lägga tillbaka din “branch” eller gren i huvudprojektet
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Referenser</h2>
+      <p id="ref">
+        Webbling (u.å.).Flexbox - grunder.
+        <a href="https://webbling.se/index.php/Flexbox_-_grunder"
+          >https://webbling.se/index.php/Flexbox_-_grunder</a
+        >2022-10-07 <br />
+        Chris Coyier (2022-09-30).A Complete Guide to Flexbox.<a
+          href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+          >https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a
+        >2022-10-07 <br />
+        RITESH RANJAN (2021-10-07).What is a Framework in Programming & Why You Should Use One.<a
+          href="https://www.netsolutions.com/insights/what-is-a-framework-in-programming/"
+          >https://www.netsolutions.com/insights/what-is-a-framework-in-programming/</a
+        >2022-10-07 <br />
+        Welearncode (u.å.).What is a Web Framework, and Why Should I use one?.<a
+          href="https://welearncode.com/what-are-frontend-frameworks/"
+          >https://welearncode.com/what-are-frontend-frameworks/</a
+        >2022-10-07 <br />
+        Annas Jan (2018-06-29).What is Bootstrap and How does it Work?.<a
+          href="https://www.quickstart.com/blog/what-is-bootstrap-and-how-does-it-work/"
+          >https://www.quickstart.com/blog/what-is-bootstrap-and-how-does-it-work/</a
+        >2022-10-07 <br />
+        Peter Koffer (2022-01-20).What is the Angular framework?.<a
+          href="https://mdevelopers.com/blog/what-is-the-angular-framework"
+          >https://mdevelopers.com/blog/what-is-the-angular-framework</a
+        >2022-10-07 <br />
+        W3schools (u.å.).JavaScript HTML DOM.
+        <a href="https://www.w3schools.com/js/js_htmldom.asp"
+          >https://www.w3schools.com/js/js_htmldom.asp</a
+        >2022-10-07 <br />
+        Gary Woodfine (2018-10-08). What is Clean Code ?.<a
+          href="https://garywoodfine.com/what-is-clean-code/"
+          >https://garywoodfine.com/what-is-clean-code/</a
+        >2022-10-07 <br />
+        W3schools (u.å.).Git GitHub Flow.
+        <a href="https://www.w3schools.com/git/git_github_flow.asp?remote=github"
+          >https://www.w3schools.com/git/git_github_flow.asp?remote=github</a
+        >2022-10-07 <br />
+        GitHub Docs (u.å.).GitHub flow.
+        <a href="https://docs.github.com/en/get-started/quickstart/github-flow"
+          >https://docs.github.com/en/get-started/quickstart/github-flow</a
+        >2022-10-07
+      </p>
+    </div>
+  </body>
+</html>
